@@ -1,5 +1,10 @@
 import React from "react";
+import HomeHeader from "../components/HomeHeader";
 
 export default function Home() {
-  return <div className="text-red-500">Home2</div>;
+  return (
+    <>
+      <HomeHeader />
+    </>
+  );
 }
